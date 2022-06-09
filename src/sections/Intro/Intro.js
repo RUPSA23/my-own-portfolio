@@ -3,7 +3,7 @@ import React from "react";
 const Intro = () => {
   return (
     <div>
-      <div class="hero min-h-screen px-10 bg-gray-700 rounded" >
+      <div class="hero min-h-screen bg-gray-700 rounded" >
         <div class="hero-content flex-col lg:flex-row-reverse">
           <img
             src="myimg.jpg"
@@ -18,6 +18,7 @@ const Intro = () => {
               className="btn btn-primary"
               href="https://drive.google.com/file/d/1IHWUoFkAhqBaFQoSA67Is2Cbi5AZlsFb/view"
               download
+              target='_blank'
             >
               Download Resume
             </a>
