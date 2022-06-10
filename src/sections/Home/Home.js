@@ -5,6 +5,8 @@ import Footer from '../Footer/Footer';
 import Intro from '../Intro/Intro';
 import Navbar from '../Navbar/Navbar';
 import Projects from '../Projects/Projects';
+import Skills from '../Skills/Skills';
+import SocialLink from '../SocialLink/SocialLink';
 
 const Home = () => {
     return (
@@ -12,7 +14,9 @@ const Home = () => {
             <Navbar></Navbar>
             <Intro></Intro>
             <About></About>
+            <Skills></Skills>
             <Projects></Projects>
+            <SocialLink></SocialLink>
             <Contact></Contact>
             <Footer></Footer>
         </div>
